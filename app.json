@@ -20,11 +20,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "useNextNotificationsApi": true
+      },
+      "config": {
+        "emulator": true,
+        "avdName": "nish"
       }
+      
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
+    
   }
 }
